@@ -1,7 +1,6 @@
 echo 'BACKING UP CONFS!'
 
-HOME=~
-NVIM=$HOME/.conf/nvim/init.vim
+NVIM=~/.conf/nvim/init.vim
 ZSH=~/.zshrc
 
 backup=($ZSH $NVIM)
