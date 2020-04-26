@@ -5,7 +5,7 @@ ZSH=~/.zshrc
 
 backup=($ZSH $NVIM)
 
-for file_path in $backup
+for file_path in NVIM ZSH
 do
         echo $file_path
         cp $file_path .
