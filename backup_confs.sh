@@ -13,5 +13,6 @@ do
 done
 
 git add *
+git add .*
 git commit -m "Backing stuff up"
 git push 
