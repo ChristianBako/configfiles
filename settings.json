@@ -1,0 +1,96 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false,
+			"colorScheme" : "One Half Dark",
+			"fontFace": "Inconsolata For Powerline",
+            "useAcrylic" : true
+        },
+        {
+            "guid": "{}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        },
+        {
+            "guid": "{}",
+            "hidden": false,
+			"name": "openSUSE-Leap-15-1",
+			"colorScheme" : "One Half Dark",
+			"fontFace": "Inconsolata For Powerline",
+            "source": "Windows.Terminal.Wsl"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [ 
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+    	{	"command":"splitHorizontal",
+    		"keys" : ["ctrl+;"]
+    	},
+    	{
+    		"command" : "splitVertical",
+    		"keys" : ["ctrl+'"]
+		},
+		{
+		    "command" : "moveFocusUp",
+		    "keys" : ["ctrl+alt+up"]
+		},
+		{
+		    "command" : "moveFocusDown",
+		    "keys" : ["ctrl+alt+down"]
+		},
+		{
+		    "command" : "moveFocusLeft",
+		    "keys" : ["ctrl+alt+left"]
+		},
+		{
+		    "command" : "moveFocusRight",
+		    "keys" : ["ctrl+alt+right"]
+		},
+		{
+		    "command" : "resizePaneUp",
+		    "keys" : ["shift+alt+up"]
+		},
+		{
+		    "command" : "resizePaneDown",
+		    "keys" : ["shift+alt+down"]
+		},
+		{
+		    "command" : "resizePaneLeft",
+		    "keys" : ["shift+alt+left"]
+		},
+		{
+		    "command" : "resizePaneRight",
+		    "keys" : ["shift+alt+right"]
+		},
+		{
+		    "command" : "closePane",
+		    "keys" : ["ctrl+shift+w"]
+		}
+    ]
+}
