@@ -1,0 +1,3 @@
+nvim
+the_silver_searcher
+
